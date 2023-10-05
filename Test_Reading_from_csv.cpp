@@ -17,6 +17,7 @@ int main(){
 			++j;
 			if(j == 1)continue;
 			getline(file1,str1);
+			if(str1.empty())continue;
 			cout<<str1<<endl;
 			
 			int i = 0;
